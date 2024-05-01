@@ -1,0 +1,52 @@
+@import '../../assets/variables.scss';
+
+.table {
+  $rowHeight: 50px;
+  width: 100%;
+  text-align: left;
+
+  td {
+    height: $rowHeight;
+    padding: 0 20px;
+    white-space: nowrap;
+
+    @media (max-width: $mobileMax) {
+      &:not(:nth-child(2)) {
+        white-space: wrap;
+      }
+    }
+  }
+
+  tr {
+    height: $rowHeight;
+    border-bottom: solid 1px #f5f6f8;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+    background: #fff;
+    white-space: nowrap;
+  }
+
+  td, th {
+    @media (max-width: $mobileMax) {
+      padding: 0 10px 0 5px;
+    }
+  }
+}
+
+.paper {
+  border-radius: 15px;
+  overflow: scroll;
+  max-height: 1000px;
+
+  @media (max-width: $mobileMax) {
+    max-height: none;
+  }
+}
+
+.cellRight {
+  text-align: right;
+}

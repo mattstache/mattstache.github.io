@@ -3,245 +3,245 @@ import { IFlight } from '../../types';
 export const logbook: IFlight[] = [
   {
     "date": "8/10/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "First!! Uneventful",
     "airTime": 2
   },
   {
     "date": "8/10/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Turns over the beach",
     "airTime": 2
   },
   {
     "date": "8/10/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Little Black",
     "notes": "First flight at new site. Stressful launch at this stage. Sled ride.",
     "airTime": 4
   },
   {
     "date": "8/11/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Uneventful beach landing",
     "airTime": 3
   },
   {
     "date": "8/11/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Launched without guidance. Turns over the beach. Last before P1",
     "airTime": 4
   },
   {
     "date": "8/18/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "First ridge flight. Longest flight to date. Flying in traffic. Beach landing. First flight of P1!!",
     "airTime": 4
   },
   {
     "date": "8/18/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Little Black",
     "notes": "First feel of thermals. Still forward launching. Start of consistent reverse launches.",
     "airTime": 5
   },
   {
     "date": "8/31/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "First top landing! Off radio until landing. ~15 minute flight",
     "airTime": 10
   },
   {
     "date": "9/1/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Second top landing! Non-standup landing. Still trying to get out of of the harness.",
     "airTime": 8
   },
   {
     "date": "9/1/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Horse Canyon",
     "notes": "Launched with cravate. Pulled it mostly out. Two 360s in a thermal and then went to LZ because of the cravate. Check wing better at launch! Highest altitude yet.",
     "airTime": 10
   },
   {
     "date": "9/1/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Horse Canyon",
     "notes": "Better on my second flight.",
     "airTime": 22
   },
   {
     "date": "9/7/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "First big ears ever!! More ridge soaring with top landing",
     "airTime": 12
   },
   {
     "date": "9/7/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "A lot of traffic and dying winds brought me down along the cliff for a beach landing. Turned just above the beach for a upwind landing.",
     "airTime": 8
   },
   {
     "date": "9/8/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Little Black",
     "notes": "Solid mountain reverse launch. Stayed in the thermals a bit with higher wind. Learned to make deeper S turns and stayed above the LZ for a few minutes before making a solid landing facing upwind.",
     "airTime": 8
   },
   {
     "date": "9/14/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Horse Canyon",
     "notes": "Extreme crosswind launch. Launched very controlled despite this. Late afternoon meant relatively no thermals. Made my first ever spot landing.",
     "airTime": 10
   },
   {
     "date": "9/21/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Top landed",
     "airTime": 10
   },
   {
     "date": "9/21/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Top landed. Flying more comfortably in traffic despite people breaking right of way rules.",
     "airTime": 15
   },
   {
     "date": "9/21/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Top landed",
     "airTime": 10
   },
   {
     "date": "9/21/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Uneventful. Lots of traffic. Top landed",
     "airTime": 10
   },
   {
     "date": "9/21/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "No wind. Scratched for a long time. Beach landing",
     "airTime": 8
   },
   {
     "date": "9/22/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Sled ride",
     "airTime": 4
   },
   {
     "date": "9/2919",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Little Black",
     "notes": "Great launch! Got some lift and was good about turning in it. Spot landing. First one on video!",
     "airTime": 8
   },
   {
     "date": "10/5/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Top landing facing downwind due to not hearing clearly over the radio.",
     "airTime": 8
   },
   {
     "date": "10/5/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Sled ride",
     "airTime": 2
   },
   {
     "date": "10/6/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Sled ride",
     "airTime": 2
   },
   {
     "date": "10/6/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Top landing from South on the apron",
     "airTime": 8
   },
   {
     "date": "10/6/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Sled ride",
     "airTime": 4
   },
   {
     "date": "11/1/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Sled ride",
     "airTime": 4
   },
   {
     "date": "11/1/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Sled ride",
     "airTime": 4
   },
   {
     "date": "11/3/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Horse Canyon",
     "notes": "Low save of the day!\" Unfortunately pulled out of the thermal thinking I could find another easily. Lost the thermal.",
     "airTime": 15
   },
   {
     "date": "11/3/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "Horse Canyon",
     "notes": "",
     "airTime": 20
   },
   {
     "date": "11/9/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Sled ride. Fastest yet.",
     "airTime": 3
   },
   {
     "date": "11/10/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Top landing (5 feet from box)",
     "airTime": 8
   },
   {
     "date": "11/10/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Lost lift yielding to tandem. Landed on beach as well as tandem",
     "airTime": 7
   },
   {
     "date": "11/10/19",
-    "glider": "A",
+    "glider": "Unknown student wing",
     "site": "TPG",
     "notes": "Beach landing",
     "airTime": 5
@@ -4402,35 +4402,35 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 20
   },
   {
     "date": "7/30/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 20
   },
   {
     "date": "7/30/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 20
   },
   {
     "date": "7/30/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 20
   },
   {
     "date": "7/30/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 20
   },
   {
     "date": "8/12/22",
@@ -4626,42 +4626,42 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 180
+    "airTime": 30
   },
   {
     "date": "9/24/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "9/24/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "9/24/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "9/24/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "9/24/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "10/1/22",
@@ -4675,35 +4675,35 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "10/1/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "10/1/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "10/1/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "10/1/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "10/3/22",
@@ -4738,42 +4738,42 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 80
+    "airTime": 25
   },
   {
     "date": "10/16/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "10/16/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "10/16/22",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": 45
+    "airTime": 30
   },
   {
     "date": "10/16/22",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 15
   },
   {
     "date": "10/16/22",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 10
   },
   {
     "date": "10/29/22",
@@ -4787,35 +4787,35 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 80
+    "airTime": 16
   },
   {
     "date": "10/29/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 16
   },
   {
     "date": "10/29/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 16
   },
   {
     "date": "10/29/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 16
   },
   {
     "date": "10/29/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 16
   },
   {
     "date": "11/5/22",
@@ -4864,84 +4864,84 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 125
+    "airTime": 22
   },
   {
     "date": "11/12/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 22
   },
   {
     "date": "11/12/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 22
   },
   {
     "date": "11/12/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 22
   },
   {
     "date": "11/12/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 22
   },
   {
     "date": "11/12/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 22
   },
   {
     "date": "11/13/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 195
+    "airTime": 32
   },
   {
     "date": "11/13/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 32
   },
   {
     "date": "11/13/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 32
   },
   {
     "date": "11/13/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 32
   },
   {
     "date": "11/13/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 32
   },
   {
     "date": "11/13/22",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 32
   },
   {
     "date": "11/27/22",
@@ -5074,126 +5074,119 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 18
   },
   {
     "date": "1/15/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 18
   },
   {
     "date": "1/15/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 18
   },
   {
     "date": "1/15/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 18
   },
   {
     "date": "1/16/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": 90
+    "airTime": 18
   },
   {
     "date": "1/16/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 18
   },
   {
     "date": "1/16/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 18
   },
   {
     "date": "1/16/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 18
   },
   {
     "date": "1/16/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 18
   },
   {
     "date": "1/21/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "Test flight on Independence Freestyle 2 harness",
-    "airTime": 60
-  },
-  {
-    "date": "",
-    "glider": "",
-    "site": "",
-    "notes": "",
-    "airTime": ""
+    "airTime": 12
   },
   {
     "date": "1/21/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "Very cross day",
-    "airTime": ""
+    "airTime": 12
   },
   {
     "date": "1/21/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 12
   },
   {
     "date": "1/21/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 12
   },
   {
     "date": "1/21/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 12
   },
   {
     "date": "2/11/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 120
+    "airTime": 40
   },
   {
     "date": "2/11/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 40
   },
   {
     "date": "2/11/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 40
   },
   {
     "date": "2/19/23",
@@ -5221,28 +5214,28 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 125
+    "airTime": 30
   },
   {
     "date": "3/4/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "3/4/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "3/4/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "3/18/23",
@@ -5319,49 +5312,49 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 120
+    "airTime": 30
   },
   {
     "date": "3/24/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "3/24/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "3/24/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "3/25/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "3/25/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "3/25/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "3/25/23",
@@ -5389,21 +5382,21 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": 120
+    "airTime": 20
   },
   {
     "date": "3/25/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "3/25/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 30
   },
   {
     "date": "4/8/23",
@@ -5480,35 +5473,35 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": 120
+    "airTime": 24
   },
   {
     "date": "5/27/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 24
   },
   {
     "date": "5/27/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 24
   },
   {
     "date": "5/27/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "Fun playing by the pier but wind turned north and I landed down by the service road.",
-    "airTime": ""
+    "airTime": 24
   },
   {
     "date": "5/27/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 24
   },
   {
     "date": "6/7/23",
@@ -5529,56 +5522,56 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 2
   },
   {
     "date": "8/15/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 2
   },
   {
     "date": "8/16/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 3
   },
   {
     "date": "8/17/23",
     "glider": "Skywalk Tequila 5 s",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 1
   },
   {
     "date": "8/18/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 1
   },
   {
     "date": "8/19/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 1
   },
   {
     "date": "8/20/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "Very stupid landing. Getting impactient with pilots playing in the landing area and forced a landing causing my wing to hit the flag on landing. No injuries or damange but dumb landing",
-    "airTime": ""
+    "airTime": 25
   },
   {
     "date": "8/21/23",
     "glider": "Skywalk Tonic2",
     "site": "TPG",
     "notes": "",
-    "airTime": ""
+    "airTime": 10
   },
   {
     "date": "1/29/2024",

@@ -302,9 +302,9 @@ const P4 = () => {
             <div className={ labelClass }>
               Logbook Notes
             </div>
-            In the context of presenting my logs, I have left my notes off. However, here are some notable notes:
+            In the context of presenting my logs, I have left my notes off. In regards to my logbook, I also record general conditions and flight statistics (when I fly with instrumentation). Here are just a few notable notes:
             <div className={ styles.notesContainer }>
-              <Note message={ 'You almost died! Huge collapse very close to the terain while going downwind. BE LESS LIKELY TO FLY IF FRIENDS ARE AROUND. I flew  in super super cross wind. I would have stayed home most likely if my friends werent going. That was a bad decision.' } />
+              <Note message={ 'You almost died! Huge collapse very close to the terain while going downwind. BE LESS LIKELY TO FLY IF FRIENDS ARE AROUND. I flew  in super super strong cross wind. I would have stayed home most likely if my (non-flying) friends werent going. That was a bad decision.' } />
               <Note message={ 'Super nice of whatshisname to lend the chili. Good height. Glider felt like it wanted to twist on me.' } />
               <Note message={ 'Crazy low save x 3! Be careful scratching so close to the cliff. Cheers for landing up top.' } />
               <Note message={ 'Remember to keep your legs tight! Got twisted and started to spiral.' } />

@@ -16,7 +16,6 @@ import '../app/globals.css';
 import styles from './p4.module.scss';
 
 import { getCanopiesFlown, getCountOfHourPlusFlightsBySite, getFilteredLogbook, getHourPlusFlightCounts, getHourPlusThermalFlightCount, getNumberOfFlights, getNumberOfFlightsPerSite, getNumberOfFlyingDays, getTotalAirtime, } from '@/utils/logbook';
-import StatsTable from '@/components/StatsTable/StatsTable';
 import classNames from 'classnames';
 import { IFlight, IFlightBySite, ILogbookFilters } from '@/types';
 import { logbook } from '@/components/FlightTable/logbook';
@@ -53,6 +52,8 @@ const FlightsPerSiteRequiremnet = ({
   setFilters, 
   flightsPerSite,
 }: IFlightsPerSiteRequiremnetProps) => {
+  const isMobile = useIsMobile();
+
   return <div className={styles.req}>
     <span className={styles.reqMin}>
       5 flights at 5 different sites in Intermediate conditions
@@ -65,7 +66,7 @@ const FlightsPerSiteRequiremnet = ({
         </span>
       </div>
       <div className={classNames("text-xs text-center", styles.tableSmallText)}>
-        *Click a site to filter the flight log
+        *Click a site to { isMobile ? 'view' : 'filter' }  the flight log
       </div>
       <div className={styles.siteTableWrapper}>
         <table
@@ -79,7 +80,7 @@ const FlightsPerSiteRequiremnet = ({
           </thead>
           <tbody>
             <tr
-              className={classNames(styles.siteTableRow, { [styles.selected]: typeof filters.site === 'undefined' })}
+              className={classNames(styles.siteTableRow, { [styles.selected]: !isMobile && typeof filters.site === 'undefined' })}
               onClick={() => setFilters({})}
               key={ 'allsites' }
             >
@@ -90,7 +91,7 @@ const FlightsPerSiteRequiremnet = ({
               flightBySite.site.length > 0
                 ? <tr
                   key={flightBySite.site}
-                  className={classNames(styles.siteTableRow, { [styles.selected]: flightBySite.site === filters.site })}
+                  className={classNames(styles.siteTableRow, { [styles.selected]: !isMobile && flightBySite.site === filters.site })}
                   onClick={() => setFilters({ site: flightBySite.site })}
                 >
                   <td>
@@ -135,18 +136,16 @@ const ThermalRequirements = ({ setFilters, buttonClassnames }: IViewFlightRequir
           <span className={styles.reqValueBlue}>{getHourPlusThermalFlightCount()}</span> qualifying flights
         </span>
       </div>
-      <div>
-        <button
-          type="button"
-          onClick={() => setFilters({
-            excludeSites: ['TPG'],
-            hourPlus: true,
-          })}
-          className={buttonClassnames}
-        >
-          View flights
-        </button>
-      </div>
+      <button
+        type="button"
+        onClick={() => setFilters({
+          excludeSites: ['TPG'],
+          hourPlus: true,
+        })}
+        className={buttonClassnames}
+      >
+        View flights
+      </button>
     </div>
   </div>;
 }
@@ -163,18 +162,16 @@ const RidgeRequirements = ({ setFilters, buttonClassnames }: IViewFlightRequirem
           <span className={styles.reqValueBlue}>{getCountOfHourPlusFlightsBySite('TPG')}</span> one-hour+ flights at <span className={styles.reqValueBlue}>TPG</span>
         </span>
       </div>
-      <div>
-        <button
-          type="button"
-          onClick={() => setFilters({
-            site: 'TPG',
-            hourPlus: true,
-          })}
-          className={buttonClassnames}
-        >
-          View flights
-        </button>
-      </div>
+      <button
+        type="button"
+        onClick={() => setFilters({
+          site: 'TPG',
+          hourPlus: true,
+        })}
+        className={buttonClassnames}
+      >
+        View flights
+      </button>
     </div>
   </div>;
 }
@@ -251,6 +248,7 @@ const P4 = () => {
   }, [filters])
 
   const onSetFilterTableVisible = (filters: ILogbookFilters) => {
+    window.scrollTo(0, 0);
     setIsMobileLogVisible(true);
     setFilters(filters);
   }
@@ -274,6 +272,9 @@ const P4 = () => {
                 Flight log
               </div>
               <FlightTable flights={ flights } />
+              <div className="text-xs">
+                *scroll table to view more
+              </div>
             </div>
           }
 
@@ -293,7 +294,7 @@ const P4 = () => {
           }
         </div>
         
-        { ((isLogVisible && isMobile) || !isMobile) &&
+        { ((!isLogVisible && isMobile) || !isMobile) &&
           <div>
             <div className={ labelClass }>
               Logbook Notes
@@ -304,7 +305,7 @@ const P4 = () => {
               <Note message={ 'Super nice of whatshisname to lend the chili. Good height. Glider felt like it wanted to twist on me.' } />
               <Note message={ 'Crazy low save x 3! Be careful scratching so close to the cliff. Cheers for landing up top.' } />
               <Note message={ 'Remember to keep your legs tight! Got twisted and started to spiral.' } />
-              <Note message={ 'First flight at Marshall! Huge success.' } />
+              <Note message={ 'First flight at Marshall! Huge success. Great decision making in terms of when to launch, where to launch, and flight plan. Stayed above 90% of the other gliders. Noticed a lot of people making turns while not in lift. Stayed straight along the ridge of the mountain until I found lift and then turned in it. Fantastic video: https://www.youtube.com/watch?v=J-RHzQ45fI8' } />
               <Note message={ 'Low save! Held on when everyone else was gone by staying on the corner of the north face. Left when someone else was coming wand was able to top land.' } />
             </div>
           </div>

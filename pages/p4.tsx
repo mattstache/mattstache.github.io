@@ -298,7 +298,7 @@ const P4 = () => {
         </div>
         
         { ((!isLogVisible && isMobile) || !isMobile) &&
-          <div>
+          <div className={ styles.logbookSection }>
             <div className={ labelClass }>
               Logbook Notes
             </div>

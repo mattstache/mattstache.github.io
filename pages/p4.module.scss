@@ -166,3 +166,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.logbookSection {
+  @media (max-width: $mobileMax) {
+    padding: 20px;
+  }
+}

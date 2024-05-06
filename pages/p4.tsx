@@ -255,6 +255,9 @@ const P4 = () => {
 
   return (
     <div className={ styles.p4 }>
+      {/* <div>
+        <img src={ '../public/greenhelmet.png' } alt="" />
+      </div> */}
       <div className={ styles.container }>
         <div className={ styles.table }>
 

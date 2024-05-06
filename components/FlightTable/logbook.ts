@@ -1153,6 +1153,13 @@ export const logbook: IFlight[] = [
     "date": "8/15/20",
     "glider": "Skywalk Tequila 5",
     "site": "Blossom",
+    "notes": "Hour plus",
+    "airTime": 73
+  },
+  {
+    "date": "8/15/20",
+    "glider": "Skywalk Tequila 5",
+    "site": "Blossom",
     "notes": "Waited it out and got another short one.",
     "airTime": 15
   },
@@ -1337,6 +1344,13 @@ export const logbook: IFlight[] = [
     "site": "Saboba",
     "notes": "Forward launch. Needed to either tap the brakes harder at the apex or run faster (but I was already running pretty fast). Great job finding a thermal low and circling back up above launch. Great job navigating and landing at the same time as a P1.",
     "airTime": 30
+  },
+  {
+    "date": "9/29/20",
+    "glider": "Skywalk Tequila 5",
+    "site": "Saboba",
+    "notes": "",
+    "airTime": 68
   },
   {
     "date": "10/19/20",
@@ -2036,7 +2050,28 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5",
     "site": "TPG",
     "notes": "PR: longest flight so far",
-    "airTime": 150
+    "airTime": 40
+  },
+  {
+    "date": "6/5/21",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "PR: longest flight so far",
+    "airTime": 40
+  },
+  {
+    "date": "6/5/21",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "PR: longest flight so far",
+    "airTime": 40
+  },
+  {
+    "date": "6/5/21",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "PR: longest flight so far",
+    "airTime": 40
   },
   {
     "date": "6/5/21",
@@ -4668,7 +4703,42 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5",
     "site": "TPG",
     "notes": "",
-    "airTime": 150
+    "airTime": 20
+  },
+  {
+    "date": "10/1/22",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 15
+  },
+  {
+    "date": "10/1/22",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 30
+  },
+  {
+    "date": "10/1/22",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 30
+  },
+  {
+    "date": "10/1/22",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 40
+  },
+  {
+    "date": "10/1/22",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 15
   },
   {
     "date": "10/1/22",
@@ -5508,14 +5578,49 @@ export const logbook: IFlight[] = [
     "glider": "Skywalk Tequila 5",
     "site": "Little Black",
     "notes": "Great flight! Super clean takeoff. Made it just about to the towers. Relatively low anxiety. Still bumpy and decided to move out front which brought me too low to come back up as conditions died down.",
-    "airTime": 62
+    "airTime": 66
   },
   {
     "date": "8/13/23",
     "glider": "Skywalk Tequila 5",
     "site": "TPG",
     "notes": "",
-    "airTime": 180
+    "airTime": 30
+  },
+  {
+    "date": "8/13/23",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 30
+  },
+  {
+    "date": "8/13/23",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 30
+  },
+  {
+    "date": "8/13/23",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 30
+  },
+  {
+    "date": "8/13/23",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 30
+  },
+  {
+    "date": "8/13/23",
+    "glider": "Skywalk Tequila 5",
+    "site": "TPG",
+    "notes": "",
+    "airTime": 30
   },
   {
     "date": "8/14/23",

@@ -86,7 +86,7 @@ const FlightsPerSiteRequiremnet = ({
               onClick={() => setFilters({})}
               key={ 'allsites' }
             >
-              <td className={ classNames({ "text-blue-600 underline": isMobile }) }>All sites</td>
+              <td className={ classNames({ "text-blue-500 underline font-semibold": isMobile }) }>All sites</td>
               <td className={styles.cellRight}>{getNumberOfFlights()}</td>
             </tr>
             {flightsPerSite.map(flightBySite => (
@@ -96,7 +96,7 @@ const FlightsPerSiteRequiremnet = ({
                   className={classNames(styles.siteTableRow, { [styles.selected]: !isMobile && flightBySite.site === filters.site })}
                   onClick={() => setFilters({ site: flightBySite.site })}
                 >
-                  <td className={ classNames({ "text-blue-600 underline": isMobile }) }>
+                  <td className={ classNames({ "text-blue-500 underline font-semibold": isMobile }) }>
                     {flightBySite.site}
                   </td>
                   <td className={styles.cellRight}>
@@ -288,7 +288,7 @@ const P4 = () => {
 
           { ((!isLogVisible && isMobile) || !isMobile) &&
             <div className={ styles.loggedRequirements }>
-              <div className={ classNames(labelClass, styles.loggedHeader ) }>
+              <div className={ classNames(labelClass, { [styles.loggedHeader]: !isMobile } ) }>
                 Logged Requirements
               </div>
               <FlightCountRequirement />

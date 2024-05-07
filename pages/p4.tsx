@@ -7,6 +7,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 // import ParaglidingIcon from '@mui/icons-material/Paragliding';
+import greenHelmetImage from '../public/greenhelmet.png';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
@@ -21,6 +22,7 @@ import { IFlight, IFlightBySite, ILogbookFilters } from '@/types';
 import { logbook } from '@/components/FlightTable/logbook';
 import { useIsMobile } from '@/utils/Dom';
 import Note from '@/components/Note/Note';
+import Image from 'next/image';
 
 interface IViewFlightRequirementsProps {
   setFilters: (filters: ILogbookFilters) => void;
@@ -84,7 +86,7 @@ const FlightsPerSiteRequiremnet = ({
               onClick={() => setFilters({})}
               key={ 'allsites' }
             >
-              <td>All sites</td>
+              <td className={ classNames({ "text-blue-600 underline": isMobile }) }>All sites</td>
               <td className={styles.cellRight}>{getNumberOfFlights()}</td>
             </tr>
             {flightsPerSite.map(flightBySite => (
@@ -94,7 +96,7 @@ const FlightsPerSiteRequiremnet = ({
                   className={classNames(styles.siteTableRow, { [styles.selected]: !isMobile && flightBySite.site === filters.site })}
                   onClick={() => setFilters({ site: flightBySite.site })}
                 >
-                  <td>
+                  <td className={ classNames({ "text-blue-600 underline": isMobile }) }>
                     {flightBySite.site}
                   </td>
                   <td className={styles.cellRight}>
@@ -215,7 +217,7 @@ const CanopiesFlownRequirement = () => {
             {getCanopiesFlown().map(canopy => (
               <tr
                 key={canopy}
-                className={classNames(styles.siteTableRow)}
+                className={classNames(styles.siteTableRow, styles.nohover)}
               >
                 <td>
                   {canopy}
@@ -255,9 +257,6 @@ const P4 = () => {
 
   return (
     <div className={ styles.p4 }>
-      {/* <div>
-        <img src={ '../public/greenhelmet.png' } alt="" />
-      </div> */}
       <div className={ styles.container }>
         <div className={ styles.table }>
 
@@ -271,8 +270,14 @@ const P4 = () => {
                   <ArrowBackIcon /> back to Logged Requirements
                 </button>
               }
-              <div className={ labelClass }>
-                Flight log
+              <div className={ styles.headerWrapper }>
+                <div className={ styles.helmet }>
+                  <Image src={ greenHelmetImage } alt="" />
+                </div>
+
+                <div className={ labelClass }>
+                  Flight log
+                </div>
               </div>
               <FlightTable flights={ flights } />
               <div className="text-xs">
@@ -283,7 +288,7 @@ const P4 = () => {
 
           { ((!isLogVisible && isMobile) || !isMobile) &&
             <div className={ styles.loggedRequirements }>
-              <div className={ labelClass }>
+              <div className={ classNames(labelClass, styles.loggedHeader ) }>
                 Logged Requirements
               </div>
               <FlightCountRequirement />
@@ -304,12 +309,12 @@ const P4 = () => {
             </div>
             In the context of presenting my logs, I have left my notes off. In regards to my logbook, I also record general conditions and flight statistics (when I fly with instrumentation). Here are just a few notable notes:
             <div className={ styles.notesContainer }>
-              <Note message={ 'You almost died! Huge collapse very close to the terain while going downwind. BE LESS LIKELY TO FLY IF FRIENDS ARE AROUND. I flew  in super super strong cross wind. I would have stayed home most likely if my (non-flying) friends werent going. That was a bad decision.' } />
-              <Note message={ 'Super nice of whatshisname to lend the chili. Good height. Glider felt like it wanted to twist on me.' } />
-              <Note message={ 'Crazy low save x 3! Be careful scratching so close to the cliff. Cheers for landing up top.' } />
-              <Note message={ 'Remember to keep your legs tight! Got twisted and started to spiral.' } />
-              <Note message={ 'First flight at Marshall! Huge success. Great decision making in terms of when to launch, where to launch, and flight plan. Stayed above 90% of the other gliders. Noticed a lot of people making turns while not in lift. Stayed straight along the ridge of the mountain until I found lift and then turned in it. Fantastic video: https://www.youtube.com/watch?v=J-RHzQ45fI8' } />
-              <Note message={ 'Low save! Held on when everyone else was gone by staying on the corner of the north face. Left when someone else was coming wand was able to top land.' } />
+            <Note message={ 'First flight at Marshall! Huge success. Great decision making in terms of when to launch, where to launch, and flight plan. Stayed above 90% of the other gliders. Noticed a lot of people making turns while not in lift. Stayed straight along the ridge of the mountain until I found lift and then turned in it. Fantastic video: https://www.youtube.com/watch?v=J-RHzQ45fI8' } />
+            <Note message={ 'Super nice of whatshisname to lend the chili. Good height. Glider felt like it wanted to twist on me.' } />
+            <Note message={ 'Crazy low save x 3! Be careful scratching so close to the cliff. Cheers for landing up top.' } />
+            <Note message={ 'Remember to keep your legs tight! Got twisted and started to spiral.' } />
+            <Note message={ 'Low save! Held on when everyone else was gone by staying on the corner of the north face. Left when someone else was coming wand was able to top land.' } />
+            <Note message={ 'You need to be more cautious when your non-flying friends are around. Took a huge collapse very close to the terrain while going downwind. Super super strong cross wind. I would have stayed home most likely if my friends werent going.' } />
             </div>
           </div>
         }
